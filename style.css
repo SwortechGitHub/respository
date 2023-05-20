@@ -1,0 +1,34 @@
+body{
+    background: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 100%;
+    border: solid 3px;
+    height: 775px;
+}
+
+td{
+    border: solid 3px;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Question{
+    text-align: center;
+    font-size: xx-large;
+}
+.Answers{
+    text-align: center;
+    padding: 40px;
+    font-size: large;
+}
+button{
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: darkslategray;
+    color: white;
+}

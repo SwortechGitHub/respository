@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioloģijas spēle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module">
+        Ans1=document.getElementById["Ans1"]
+        Ans2=document.getElementById["Ans2"]
+        Ans3=document.getElementById["Ans3"]
+        Ans4=document.getElementById["Ans4"]
+        QuestionBox=document.getElementById["Q"]
+
+        import { Question, Answer, Option1, Option2, Option3} from "../Questions.json";
+
+        console.log(Question, Answer)
+        console.log(Option1, Option2, Option3)
+    </script>
+</head>
+<body>
+    <table>
+        <tr class="Question">
+            <td colspan="2" id="Q">
+                <p>Question</p>
+            </td>
+        </tr>
+        <tr class="Answers">
+            <td id="Ans1">
+                <button>answer</button>
+            </td>
+            <td id="Ans2">
+                <button>answer</button>
+            </td>
+        </tr>
+        <tr class="Answers">
+            <td id="Ans3">
+                <button>answer</button>
+            </td>
+            <td id="Ans4">
+                <button>answer</button>
+            </td>
+        </tr>
+        <tr >
+            <td style="background-color: dimgrey;">
+                Score
+            </td>
+            <td style="background-color: dimgrey">
+                Time
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
